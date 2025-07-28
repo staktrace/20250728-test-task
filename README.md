@@ -2,7 +2,7 @@ Steps to reproduce:
 ------------------
 
 1. Run `./gradlew socketTest --info`
-2. Observe that it runs the test (which intentionally throws an exception, to make it more obvious.
+2. Observe that it runs the test (which intentionally throws an exception, to make it more obvious).
 3. Upgrade wrapper to gradle 9.0.0-rc-3
 4. Run `./gradlew socketTest --info`
 
